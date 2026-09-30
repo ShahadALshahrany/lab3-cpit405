@@ -1,0 +1,46 @@
+
+
+:root {
+  --bg: #9e5879;
+  --panel: #ddaec5;
+  --text: #4b2b31;
+  --heading: #e7dadc;
+  --shadow: 0 12px 30px rgba(171, 121, 126, 0.266);
+}
+
+body {
+  font-family:Cursive;
+  background: linear-gradient(135deg, #eef2ff 0%, var(--bg) 100%);
+  color: var(--text);
+  line-height: 1.6;
+}
+header {
+  Font-family: serif;
+  background-color: var(--heading);
+  padding: 20px;
+  text-align: center;
+
+}
+main {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: var(--bg);
+  box-shadow: var(--shadow);
+  border-radius: 8px;
+}
+section {
+  margin-bottom: 20px;
+  background-color: var(--panel);
+  padding: 25px; 
+  border: 2px solid rgb(47, 11, 30);
+}
+
+h1, h2 {
+ font-family: Fantasy;
+  color: var(--text);
+  text-align: center;
+}
+
+
+
