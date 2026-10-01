@@ -41,6 +41,48 @@ h1, h2 {
   color: var(--text);
   text-align: center;
 }
+cv-section {
+  margin-bottom: 20px;
+  background-color: var(--panel);
+  padding: 20px;
+  border-radius: 8px;
+}
+skills ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+section:hover {
+  opacity: 0.9;
+}
+skills-list li {
+  display: inline-block;
+  background-color: var(--heading);
+  padding: 5px 12px;
+  margin: 5px;
+  border-radius: 15px;
+}
+nav a:hover {
+  color: #8b0000;
+  text-decoration: underline;
+}
+
+.project-card a:hover {
+  opacity: 0.8;
+}
+
+
+@media (max-width: 768px) {
+  main {
+    width: 90%;
+    margin: 10px auto;
+    padding: 10px;
+  }
+
+  nav a {
+    display: block;
+    margin: 8px 0;
+  }
+}
 
 
 
